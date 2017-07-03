@@ -1,42 +1,12 @@
-<!DOCTYPE html>
 <html>
-  <head>
-<!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>-->
-    <script src="angular-1.6.4/angular.js"></script>
-    <script src="script.js"></script>
-<script>
-
-</script>
-
-</head>
-  <body ng-app="myApp">
-    <div ng-controller="serviceHandler">
-      <form name="searchUser" ng-submit="search(username)">
-      <div>{{error}}</div>
-      <input type="search" required placeholder = "Username" ng-model="username"/>
-        <input type="submit" value="Search" >
-      </form>
-      <div>
-        <h2>{{user.name}} </h2>
-        <img ng-src="{{user.avatar_url}}" title="{{user.name}}">
-        </div> 
-
-        <table>
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Stars</th>
-                <th>Language</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr ng-repeat="repo in repos">
-                  <td>{{repo.name}}</td>
-                  <td>{{repo.stargazers_count}}</td>
-                  <td>{{repo.language}}</td>
-              </tbody>
-        </table>
-    </div>
-  </body>
-
+    <head>
+        <title> Drones </title>
+        <script src="node_modules/traceur/bin/traceur.js"></script>
+        <script src="node_modules/es6-module-loader/dist/es6-module-loader-dev.js"></script>
+    </head>
+    <body>
+      <script>
+        System.import('src/app.js')
+    </script>
+    </body>
 </html>
