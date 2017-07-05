@@ -34,7 +34,7 @@ export let fleet = [
     {
         license: 'A5',
         type: 'car',
-        make: 'Teslaita k garnu ra',
+        make: 'Tesla',
         model: 'Quick Transport',
         miles: '1111',
         latLong: '40.775588 -73.974567'
@@ -42,7 +42,7 @@ export let fleet = [
     {
         license: 'A1',
         type: 'car',
-        make: 'Tesla',
+        make: 'Uber',
         model: 'Quick Transport',
         miles: '15600',
         latLong: '40.775588 -73.974567'
@@ -50,7 +50,7 @@ export let fleet = [
         {
         license: 'A',
         type: 'car',
-        make: 'TeslaNepalHaha',
+        make: 'Uber',
         model: 'Quick Transport',
         miles: '15600',
         latLong: '40.775588 -73.974567'
