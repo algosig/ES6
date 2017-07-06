@@ -21,7 +21,7 @@ export let fleet = [
         model: 'Ama123',
         airTimeHours: '600',
         base: 'New York',
-        latLong: '40.775674 -73.974765'
+        latLong: '41.775674 -72.974765'
     },
     {
         license: 'A4',
@@ -37,7 +37,7 @@ export let fleet = [
         make: 'Tesla',
         model: 'Quick Transport',
         miles: '1111',
-        latLong: '40.775588 -73.974567'
+        latLong: '41.775588 -74.974567'
     },
     {
         license: 'A1',
@@ -53,6 +53,6 @@ export let fleet = [
         make: 'Uber',
         model: 'Quick Transport',
         miles: '15600',
-        latLong: '40.775588 -73.974567'
+        latLong: '41.765588 -72.874567'
     }
 ]
