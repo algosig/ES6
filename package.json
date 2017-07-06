@@ -1,5 +1,5 @@
 {
-  "name": "es6",
+  "name": "fleet-manager",
   "version": "1.0.0",
   "description": "Created this repository while I was Learning Angular 1 sometime ago. I couldn't contribute much as currently I'm learning Angular2.",
   "main": "index.js",
@@ -11,16 +11,16 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/algosig/ES6.git"
+    "url": "git+https://github.com/algosig/fleet-manager.git"
   },
   "keywords": [
     "ES6",
     "JavaScript"
   ],
   "bugs": {
-    "url": "https://github.com/algosig/ES6/issues"
+    "url": "https://github.com/algosig/fleet-manager/issues"
   },
-  "homepage": "https://github.com/algosig/ES6#readme",
+  "homepage": "https://github.com/algosig/fleet-manager#readme",
   "dependencies": {
     "es6-module-loader": "^0.17.11",
     "jquery": "^3.2.1",
